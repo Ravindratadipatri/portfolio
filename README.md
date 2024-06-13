@@ -4,70 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ravindra Reddy Tadipatri - Personal Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
         }
         header {
-            background-color: #000;
-            color: yellow;
+            background-color: #1E88E5;
+            color: #ffffff;
             padding: 20px 0;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #000;
+            background-color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         nav a {
-            color: yellow;
+            color: #FFD700;
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
+            font-weight: 500;
         }
         nav a:hover {
             background-color: #FFD700;
-            color: black;
+            color: #333;
         }
         section {
             padding: 20px;
-            max-width: 800px;
+            max-width: 1200px;
             margin: auto;
-            background-color: white;
-            border: 1px solid #ddd;
+            background-color: #1F1F1F;
+            border: 1px solid #333;
             margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         footer {
-            background-color: #000;
-            color: yellow;
+            background-color: #333;
+            color: #FFD700;
             text-align: center;
             padding: 10px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
         }
         h2 {
-            color: #000;
+            color: #FFD700;
+            font-size: 2em;
         }
         .button-container {
             text-align: center;
             margin: 20px 0;
         }
         .button-container a {
-            background-color: #000;
-            color: yellow;
+            background-color: #1E88E5;
+            color: white;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
             margin: 5px;
+            font-weight: 500;
         }
         .button-container a:hover {
             background-color: #FFD700;
-            color: black;
+            color: #333;
         }
         .hidden {
             display: none;
@@ -79,7 +94,18 @@
         .image-container img {
             max-width: 100%;
             height: auto;
-            border: 1px solid #aaa;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 5px;
         }
         @media (min-width: 768px) {
             section {
@@ -98,6 +124,7 @@
             sections.forEach(section => {
                 section.classList.add('hidden');
             });
+            document.getElementById(sectionId
             document.getElementById(sectionId).classList.remove('hidden');
         }
     </script>
@@ -123,12 +150,12 @@
 <section id="about">
     <h2>About Me</h2>
     <div class="image-container">
-        <img src="https://drive.google.com/file/d/1M7mN3dnZqdpwR5SXrafqC6wmjU5l_3I9/view?usp=drivesdk" alt="Ravindra Reddy Tadipatri">
+        <img src="https://drive.google.com/uc?id=1M7mN3dnZqdpwR5SXrafqC6wmjU5l_3I9" alt="Ravindra Reddy Tadipatri">
     </div>
     <p>Motivated and enthusiastic individual with a strong academic background and a passion for learning and growth. Possesses excellent communication skills and a keen interest in discussing ideas and receiving constructive feedback. Seeking a role where I can leverage my educational foundation while being mentored and nurtured to further develop my skills and advance my career.</p>
     <h3>Summary</h3>
     <p>Pursuing 3rd Year in Computer Science And Information Technology Department at Marri Laxman Reddy Inst of Technology.</p>
-    <p>CGPA : 8.00 | 2025</p>
+    <p>CGPA : 7.00 | 2025</p>
 </section>
 
 <section id="portfolio" class="hidden">
@@ -148,7 +175,7 @@
     <div class="image-placeholder">Image Placeholder</div>
     <p>You can reach me at:</p>
     <p>Phone: 7997555414</p>
-    <p>Email: <a href="mailto:ravindraoptional@gmail.com">ravindraoptional@gmail.com</a></p>
+    <p>Email: <a href="mailto:ravindraoptional@gmail.com" style="color: #FFD700;">ravindraoptional@gmail.com</a></p>
 </section>
 
 <section id="hobbies" class="hidden">
