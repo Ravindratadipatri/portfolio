@@ -123,12 +123,12 @@
 <section id="about">
     <h2>About Me</h2>
     <div class="image-container">
-        <img src="https://drive.google.com/uc?id=1M7mN3dnZqdpwR5SXrafqC6wmjU5l_3I9" alt="Ravindra Reddy Tadipatri">
+        <img src="https://drive.google.com/file/d/1M7mN3dnZqdpwR5SXrafqC6wmjU5l_3I9/view?usp=drivesdk" alt="Ravindra Reddy Tadipatri">
     </div>
     <p>Motivated and enthusiastic individual with a strong academic background and a passion for learning and growth. Possesses excellent communication skills and a keen interest in discussing ideas and receiving constructive feedback. Seeking a role where I can leverage my educational foundation while being mentored and nurtured to further develop my skills and advance my career.</p>
     <h3>Summary</h3>
     <p>Pursuing 3rd Year in Computer Science And Information Technology Department at Marri Laxman Reddy Inst of Technology.</p>
-    <p>CGPA : 7.00 | 2025</p>
+    <p>CGPA : 8.00 | 2025</p>
 </section>
 
 <section id="portfolio" class="hidden">
