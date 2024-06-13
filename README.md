@@ -13,18 +13,18 @@
             color: #333;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #000;
+            color: yellow;
             padding: 20px 0;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            background-color: #000;
         }
         nav a {
-            color: white;
+            color: yellow;
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
@@ -42,8 +42,8 @@
             margin-top: 20px;
         }
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #000;
+            color: yellow;
             text-align: center;
             padding: 10px 0;
             position: fixed;
@@ -51,15 +51,15 @@
             bottom: 0;
         }
         h2 {
-            color: #4CAF50;
+            color: #000;
         }
         .button-container {
             text-align: center;
             margin: 20px 0;
         }
         .button-container a {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #000;
+            color: yellow;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
@@ -80,6 +80,16 @@
             max-width: 100%;
             height: auto;
             border: 1px solid #aaa;
+        }
+        @media (min-width: 768px) {
+            section {
+                max-width: 1000px;
+            }
+        }
+        @media (min-width: 1024px) {
+            section {
+                max-width: 1200px;
+            }
         }
     </style>
     <script>
@@ -117,7 +127,7 @@
     </div>
     <p>Motivated and enthusiastic individual with a strong academic background and a passion for learning and growth. Possesses excellent communication skills and a keen interest in discussing ideas and receiving constructive feedback. Seeking a role where I can leverage my educational foundation while being mentored and nurtured to further develop my skills and advance my career.</p>
     <h3>Summary</h3>
-    <p>Persuing 3rd Year in Computer Science And Information Technology Department at Marri Laxman Reddy Inst of Technology.</p>
+    <p>Pursuing 3rd Year in Computer Science And Information Technology Department at Marri Laxman Reddy Inst of Technology.</p>
     <p>CGPA : 7.00 | 2025</p>
 </section>
 
